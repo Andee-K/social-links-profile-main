@@ -15,8 +15,11 @@ body {
 .container {
     background-color: hsl(0, 0%, 12%);
     border-radius: 15px;
-    width: 22rem;
-    height: 34rem;
+    width: 24rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .profile-info {
@@ -38,14 +41,14 @@ body {
 
 .profile-info img {
     border-radius: 50%;
-    width: 5em;
-    margin-top: 25px;
+    width: 6em;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .profile-info p {
     font-size: 14px;
-    margin-top: -1px;
+    margin-bottom: -5px;
 }
 
 .links {
@@ -59,7 +62,7 @@ body {
 .links button {
     background-color: hsl(0, 0%, 20%);
     font-weight: 600;
-    width: 85%;
+    width: 83%;
     height: 15%;
     border-radius: 10px;
 }
